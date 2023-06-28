@@ -21,7 +21,7 @@
                 <%= sanitize(product.description) %>
               </p>
               <div class="mt-3">
-                <%= number_to_currency(product.price) %>
+                <%= number_to_currency(product.price, separator: ",", delimiter: ".") %>
               </div>
             </div>
           </li>
