@@ -133,6 +133,8 @@ GEM
     nio4r (2.5.9)
     nokogiri (1.15.2-x86_64-darwin)
       racc (~> 1.4)
+    nokogiri (1.15.2-x86_64-linux)
+      racc (~> 1.4)
     public_suffix (5.0.1)
     puma (5.6.6)
       nio4r (~> 2.0)
@@ -172,11 +174,11 @@ GEM
     regexp_parser (2.8.1)
     reline (0.3.5)
       io-console (~> 0.5)
-    rexml (3.2.5)
+    rexml (3.2.6)
     ruby-vips (2.1.4)
       ffi (~> 1.12)
     rubyzip (2.3.2)
-    selenium-webdriver (4.10.0)
+    selenium-webdriver (4.12.0)
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
@@ -188,9 +190,12 @@ GEM
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
     sqlite3 (1.6.3-x86_64-darwin)
+    sqlite3 (1.6.3-x86_64-linux)
     stimulus-rails (1.2.1)
       railties (>= 6.0.0)
     tailwindcss-rails (2.0.29-x86_64-darwin)
+      railties (>= 6.0.0)
+    tailwindcss-rails (2.0.29-x86_64-linux)
       railties (>= 6.0.0)
     thor (1.2.2)
     timeout (0.4.0)
@@ -215,6 +220,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-22
+  x86_64-linux
 
 DEPENDENCIES
   bcrypt (~> 3.1.7)
